@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +8,24 @@
 <body>
     <h1>Other Elements</h1>
     <form action="">
-        <select name="" id="">
-            <option value="">p</option>
-            <option value="">m</option>
-            <option value="">g</option>
+        <label for="pet-select">Choose a pet:</label>
+        <select name="pet-select" id="pet-select">
+            <option value="late">cão</option>
+            <option value="mia">gato</option>
+            <option value="coco de bolinha">coelho</option>
         </select>
-    </form>
+        <button> Entrar</button>
+    </form> 
+
+    <h2>falando mais sobre radios</h2>
+
+    <p><strong>selecione qual cavalo voce acha que ganha acorrida: </strong></p>
+<form action="">
+    <label for="apostas">Cavalo branco</label>
+    <input type="radio" name="corrida" id="apostas" value="branco">
+    <label for="apostas">Cavalo preto</label>
+    <input type="radio" name="corrida" id="apostas" value="preto"> <!--tem que da o nome igual para saber que eles estao conectados -->
+    <button>Enviar</button>
+</form>
 </body>
 </html>
